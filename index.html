@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">       
+    <title>Aula 2 - Exercício</title>
+</head>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+</script>
+
+<body>
+    <main>
+        <header>
+            <div class="imgHeader"> 
+                <img src="public/img/Ford_logo_flat.svg.png" alt="Logo da Ford">
+            </div>
+            <div class="topnav" id="myTopnav">
+                <a href="#">Inicio</a>
+                <a href="#">Sobre</a>
+                <a href="#">Pessoas</a>
+                
+                <a href="#">Contato</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            
+        </header>
+        <section class="cars">
+            <div class="card">
+                <img src="public/img/car1.jpg" alt="Carro1">
+                
+                    <h3>Nome do Carro</h3>
+                    <br>
+                    <p>Texto sobre essa bodega</p>
+            </div>
+            <div class="card">
+                <img src="public/img/car2.jpg" alt="Carro2">
+                
+                    <h3>Nome do Carro</h3>
+                    <br>
+                    <p>Texto sobre essa bodega</p>
+            </div>
+            <div class="card">
+                <img src="public/img/car3.jpg" alt="Carro3">
+                
+                    <h3>Nome do Carro</h3>
+                    <br>
+                    <p>Texto sobre essa bodega</p>
+            </div>
+            <div class="card">
+                <img src="public/img/car4.png" alt="Carro4">
+                
+                    <h3>Nome do Carro</h3>
+                    <br>
+                    <p>Texto sobre essa bodega</p>
+            </div>
+            <div class="card">
+                <img src="public/img/car5.jpg" alt="Carro5">
+                
+                    <h3>Nome do Carro</h3>
+                    <br>
+                    <p>Texto sobre essa bodega</p>
+            </div>
+        </section>
+        <section class="two">
+            <div class="valor">
+                <h1>123</h1>
+                <h2>Vendas</h2>
+            </div>
+            <div class="valor">
+                <h1>123</h1>
+                <h2>Vendas</h2>
+            </div>
+            <div class="valor">
+                <h1>123</h1>
+                <h2>Vendas</h2>
+            </div>
+        </section>
+        <section class="three">
+            <div class="pessoa1">
+                <div class="pessoaimg">
+                    <img src="public/img/depositphotos_66613339-stock-photo-man-with-crossed-arms.jpg" alt="Direto">
+                </div>
+                <div class="detalhes">
+                    <h3>Direto Bento</h3>
+                    <br>
+                    <p>Detalhes sobre esta pessoa aqui meu que vai a loucura</p>
+                </div>
+            </div>
+
+            <div class="pessoa2">
+                <div class="pessoaimg">
+                    <img src="public/img/WhatsApp-Image-2020-10-30-at-15.17.58-1-1024x682.jpeg" alt="Direto">
+                </div>
+                <div class="detalhes">
+                    <h3>Direto Bento</h3>
+                    <br>
+                    <p>Detalhes sobre esta pessoa aqui meu. Manja da firma toda</p>
+                </div>
+            </div>
+            
+        </section>
+        <footer>
+            <div class="contato">
+                <h1>contato:</h1>
+                <form action="#" method="POST">
+                    <br>
+                    <input type="text" name="nome" placeholder="Digite seu nome" required> <br>
+                    <input type="text" name="email" placeholder="Digite seu email" required><br>
+                    <textarea name="texto" placeholder="Coloque seu texto" required></textarea> <!-- cols="30" rows="10" -->
+                    <br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            
+            <div class="descrit">
+                <a href="https://github.com/gabdonada"><img src="./public/img/git.png" alt="GitHub link"></a>
+                <a href=""><img src="./public/img/facebookIcon.png" alt="Facebook link"></a>
+                <a href=""><img src="./public/img/instagramIcon.png" alt="Instagram Link"></a>
+                <a href="https://www.google.com/maps/place/Bourbon+Shopping+S%C3%A3o+Leopoldo/@-29.7693473,-51.1459485,15z/data=!4m2!3m1!1s0x0:0xbb521d81226fc2b1?sa=X&ved=2ahUKEwi2jrGT3o3zAhUCIrkGHUtWDVkQ_BJ6BAhWEAU"><img src="./public/img/instaIcon.png" alt="Localização"></a>
+                <a href="mailto:gabdonada@hotmail.com"><img src="./public/img/email.png" alt=""></a>
+            </div>
+            
+        </footer>
+    </main>    
+</body>
+</html>
